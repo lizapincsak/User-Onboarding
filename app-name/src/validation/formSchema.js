@@ -16,5 +16,5 @@ export default yup.object().shape({
     terms: yup
     .boolean()
     .oneOf([true], "you must give away all your data")
-    .required('Position is required'),
+    
 })

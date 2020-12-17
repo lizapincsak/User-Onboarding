@@ -17,9 +17,9 @@ export default function UserForm(props) {
     return (
         <div>
         <form onSubmit={onSubmit}>
-            <div className="submit">
+            <div>
                 <h2>Add User Name</h2>
-                <button disabled={disabled}>submit</button>
+                <button className="submit" disabled={disabled}>submit</button>
             </div>
             <div className="errors" style={{color: 'red'}}>
                 <div>{errors.name}</div>
